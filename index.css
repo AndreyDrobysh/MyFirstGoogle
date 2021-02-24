@@ -1,0 +1,54 @@
+.office {
+  background-color: white;
+  height: 130px;
+}
+.header-link {
+  color: black;
+}
+.poisk {
+  height: 401px;
+}
+.background {
+  background-color: #f2f2f2;
+  padding: 15px 0px 0px 30px;
+  height: 33px;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  font-family: Arial;
+}
+.line {
+  border: none;
+    background-color: #dadce0;
+    color: #dadce0;
+    height: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+.help {
+  background-color: #f2f2f2;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 22px;
+}
+a {
+  text-decoration: none;
+}
+.About-Google {
+
+
+}
+.footer-link {
+  color: #70757a ;
+  justify-content: flex-center;
+  margin: 13px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+.footer-link-right {
+  color: #70757a;
+  margin: 13px;
+  padding: 13px 0px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
