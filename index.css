@@ -5,10 +5,96 @@
 .header-link {
   color: black;
 }
-.poisk {
-  height: 401px;
+.header-link:hover {
+  text-decoration: underline;
 }
-.background {
+.google-picture {
+  display: flex;
+  justify-content: center;
+}
+.poisk {
+  height: 378px;
+}
+.all-search {
+  display: flex;
+  justify-content: center;
+  margin: 27px;
+}
+.border-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  background-color: white;
+  border-radius: 24px;
+  height: 45px;
+  width: 584px;
+}
+.search-icon {
+  color: #9aa0a6;
+  line-height: 24px;
+  margin: 0px 0px 2px 8px;
+  fill: currentColor;
+}
+.search {
+  /* border: none; */
+  /* outline: none; */
+  width: 440px;
+  height: 20px;
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+}
+.keyboard {
+  margin: 0px 50px 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+.voice-search {
+  width: 20px;
+  height: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+.translate {
+  margin: 0px 0px 0px 10px;
+  font-family: arial,sans-serif;
+  font-size: small;
+}
+.translate:hover {
+  text-decoration: underline;
+}
+.left-button {
+  margin: 2px 12px 0px 0px;
+  width: 132px;
+  height: 36px;
+  background-color: #f8f9fa;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+}
+.right-button {
+  margin: 2px 0px 0px 0px;
+  width: 120px;
+  height: 36px;
+  background-color: #f8f9fa;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  border: 1px solid #f8f9fa;
+  color: #3c4043
+}
+.lenguage {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  margin: 30px 0px 0px 0px;
+}
+.contry-name {
   background-color: #f2f2f2;
   padding: 15px 0px 0px 30px;
   height: 33px;
@@ -34,10 +120,6 @@
 a {
   text-decoration: none;
 }
-.About-Google {
-
-
-}
 .footer-link {
   color: #70757a ;
   justify-content: flex-center;
@@ -45,10 +127,16 @@ a {
   font-size: 14px;
   font-family: arial,sans-serif;
 }
+.footer-link:hover {
+  text-decoration: underline;
+}
 .footer-link-right {
   color: #70757a;
   margin: 13px;
   padding: 13px 0px;
   font-size: 14px;
   font-family: arial,sans-serif;
+}
+.footer-link-right:hover {
+  text-decoration: underline;
 }
